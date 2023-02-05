@@ -1,5 +1,5 @@
 # markdown-previewer
-freeCodeCamp Front End Development Libraries project
+freeCodeCamp Front End Development Libraries project - Build a Markdown Previewer
 
 This project was completed as part of freeCodeCamp's Front End Development Libraries certificate.
 
