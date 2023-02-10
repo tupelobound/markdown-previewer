@@ -9,7 +9,7 @@ marked.setOptions({
 
 // Define a variable for the initial state of the input field
 const placeholder = `# This is a h1 element, use one hash to make it!
-  
+
 ## This is a h2 element, use two hashes for this one.
 
 You can make a link by enclosing text in square brackets, and the address of the link in parentheses. Like this really helpful [link](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet), for example.
