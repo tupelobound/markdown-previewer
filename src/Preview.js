@@ -1,9 +1,10 @@
 import { marked } from 'marked'
+import * as DOMPurify from 'dompurify';
 
 // Set marked options so that carriage returns are interpreted as line break elements
 marked.setOptions({
     breaks: true
-  });
+});
 
 function Preview({ click, output }) {
     return (
@@ -13,7 +14,7 @@ function Preview({ click, output }) {
             <div
                 className="view-box"
                 id="preview"
-                dangerouslySetInnerHTML={{ __html: marked(output) }}
+                dangerouslySetInnerHTML={{ __html: marked(DOMPurify.sanitize(output)) }}
             />
         </div>
     )
