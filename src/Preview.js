@@ -1,3 +1,10 @@
+import { marked } from 'marked'
+
+// Set marked options so that carriage returns are interpreted as line break elements
+marked.setOptions({
+    breaks: true
+  });
+
 function Preview({ click, output }) {
     return (
         <div id="preview-container" className="view-box-container">
@@ -6,12 +13,10 @@ function Preview({ click, output }) {
             <div
                 className="view-box"
                 id="preview"
+                dangerouslySetInnerHTML={{ __html: marked(output) }}
             />
         </div>
     )
 }
 
 export default Preview
-
-//__html: marked(output)
-//dangerouslySetInnerHTML={"Hello World!"}
