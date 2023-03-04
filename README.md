@@ -1,4 +1,7 @@
 # markdown-previewer
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/8467d756aedd4d6e98e1d46c3379982a)](https://www.codacy.com/gh/tupelobound/markdown-previewer/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=tupelobound/markdown-previewer&amp;utm_campaign=Badge_Grade)
+
 freeCodeCamp Front End Development Libraries project - Build a Markdown Previewer
 
 This project was completed as part of freeCodeCamp's Front End Development Libraries certificate, focusing on front end libraries such as React.
