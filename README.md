@@ -12,4 +12,6 @@ This project brief was to fulfill the following user stories:
 5.  When my markdown previewer first loads, the default text in the #editor field should contain valid markdown that represents at least one of each of the following elements: a heading element (H1 size), a sub heading element (H2 size), a link, inline code, a code block, a list item, a blockquote, an image, and bolded text.
 6.  When my markdown previewer first loads, the default markdown in the #editor field should be rendered as HTML in the #preview element.
 
-Originally built on Codepen with a starter template, migrating it to Github was a great opportunity to learn a bit more about updates to React, and processing JSX using Babel. This version uses a class component to wrap the main app. I'm currently working on a new version using functional components and hooks only.
+Originally built on Codepen with a starter template, migrating it to Github was a great opportunity to learn a bit more about updates to React, and processing JSX using Babel. 
+
+First version used a class component to wrap the main app. This is version 2.0, using functional components and hooks.
