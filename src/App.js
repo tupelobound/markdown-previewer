@@ -46,11 +46,7 @@ This project was created using React. Here's the lovely React logo:
 
 function App() {
   // set initial state of output box
-  const [output, setOutput] = useState({
-    output: placeholder,
-    editorExpanded: false,
-    previewExpanded: false
-  })
+  const [output, setOutput] = useState(placeholder)
 
   // Function to handle change in the text area and pass this data to state
   const handleChange = event => {
@@ -66,8 +62,8 @@ function App() {
     <div>
       <Header />
       <div id='main'>
-        <Editor change={handleChange} initial={output.output} click={handleClick} />
-        <Preview output={output.output} click={handleClick} />
+        <Editor change={handleChange} initial={output} click={handleClick} />
+        <Preview output={output} click={handleClick} />
       </div>
     </div>
   )
