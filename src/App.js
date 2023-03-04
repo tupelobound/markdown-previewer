@@ -30,8 +30,8 @@ Notice how the number in the input can be any number, yet the output maintains t
 You can also make an unordered list by using an asterisk, a plus, or a minus:
 
   * unordered list item
-  + another one
-  - last one
+  * another one
+  * last one
 
 A famous person once said:
 > "You can use a right arrow to create a blockquote.
