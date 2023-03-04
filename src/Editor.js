@@ -1,5 +1,8 @@
+import React from 'react'
+import PropTypes from 'prop-types'
+
 // Functional component for the editor box
-function Editor({click, change, initial}) {
+function Editor ({ click, change, initial }) {
   return (
     <div id="editor-container" className="view-box-container">
       <h2 className="heading">Editor</h2>
@@ -11,6 +14,12 @@ function Editor({click, change, initial}) {
     />
   </div>
   )
+}
+
+Editor.propTypes = {
+  click: PropTypes.func.isRequired,
+  change: PropTypes.func.isRequired,
+  initial: PropTypes.string.isRequired
 }
 
 export default Editor
