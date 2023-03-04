@@ -1,3 +1,4 @@
+// Functional component for the editor box
 function Editor({click, change, initial}) {
   return (
     <div id="editor-container" className="view-box-container">

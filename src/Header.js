@@ -1,3 +1,4 @@
+// Functional component for the header
 function Header() {
   return (
     <div>

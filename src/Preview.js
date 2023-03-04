@@ -6,6 +6,7 @@ marked.setOptions({
     breaks: true
 });
 
+// Functional component for the preview box
 function Preview({ click, output }) {
     return (
         <div id="preview-container" className="view-box-container">

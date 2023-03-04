@@ -58,6 +58,7 @@ function App() {
     console.log(event)
   }
 
+  // Return the app content
   return (
     <div>
       <Header />
