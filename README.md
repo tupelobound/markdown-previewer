@@ -1,8 +1,8 @@
 # markdown-previewer
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/8467d756aedd4d6e98e1d46c3379982a)](https://www.codacy.com/gh/tupelobound/markdown-previewer/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=tupelobound/markdown-previewer&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/8467d756aedd4d6e98e1d46c3379982a)](https://app.codacy.com/gh/tupelobound/markdown-previewer/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)
 
-freeCodeCamp Front End Development Libraries project - Build a Markdown Previewer
+## freeCodeCamp Front End Development Libraries project - Build a Markdown Previewer
 
 This project was completed as part of freeCodeCamp's Front End Development Libraries certificate, focusing on front end libraries such as React.
 
@@ -18,5 +18,3 @@ This project brief was to fulfill the following user stories:
 Originally built on Codepen with a starter template, migrating it to Github was a great opportunity to learn a bit more about updates to React, and processing JSX using Babel. 
 
 First version used a class component to wrap the main app. This is version 2.0, using functional components and hooks.
-
-Test
